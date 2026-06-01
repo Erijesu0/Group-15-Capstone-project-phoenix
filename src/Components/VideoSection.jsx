@@ -1,3 +1,5 @@
+import '../styles/VideoSection.css' ;
+
 const VideoSection = () => {
   return (
     <section className="video-section">
