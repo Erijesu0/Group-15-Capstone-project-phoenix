@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+import './VideoGrid.css';
 const VideoSection = () => {
   return (
     <section className="video-section">
