@@ -1,12 +1,53 @@
+
 const Footer = () => {
   return (
     <footer className="site-footer">
       <div className="footer-about">
         <h3>About</h3>
-        <p>Jesutobiloba, Erijesu and co</p>
+        <ul> 
+    <li> 
+        <a href="https://github.com/Erijesu0/repo.git" target="blank"> Erijesu</a> 
+    </li> 
+
+    <li> 
+        <a href="https://github.com/officialjesprec.git" target="blank"> Jesutobiloba</a>
+    </li>
+
+    <li>
+        <a href="https://github.com/FlourishM/repo.git" target="blank">FlourishM </a>
+    </li>
+    
+    <li> 
+        <a href="https://github.com/Adokun-Rapheal1/repo.git" target="blank">Adokun-Rapheal</a>
+    </li>  
+    
+    <li>
+        <a href="https://github.com/Aluoye/footer.jsx" target= "blank">Aluoye</a>
+    </li>
+    
+    <li>
+        <a href="https://github.com/ewenikekaosisochukwu-dotcom.git" target= "blank">Kaosisochukwu</a>
+    </li>
+
+    <li>
+        <a href="https://github.com/tobiloba/repo.git" target="blank"> Tobiloba</a>
+    </li>
+
+    <li>
+        <a href="https://github.com/samson/repo.git" target="blank">Samson</a></li>
+
+    <li>
+        <a href="https://github.com/FIYIN/repo.git" target="blank">Fiyin</a>
+    </li>
+
+    <li>
+        <a href="https://github.com/mazi.Traviss-/repo.git" target= "blank"> Mazi </a> 
+    </li>
+    
+    </ul>
       </div>
 
-      <div className="footer-divider"></div>
+      <div className="footer-divider"><hr> </hr> </div>
 
       <div className="footer-bottom">
         <p>
