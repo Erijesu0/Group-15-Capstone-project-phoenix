@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/ContactForm.css";
+import "./ContactForm.css";
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);

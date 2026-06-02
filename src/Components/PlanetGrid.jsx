@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import '../styles/PlanetGrid.css' ;
+import "./PlanetGrid.css";
 
 const PlanetGrid = () => {
   const [planets, setPlanets] = useState([]);
