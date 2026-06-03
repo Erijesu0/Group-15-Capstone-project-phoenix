@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+  --dark-navy: #061126;
+  --primary-blue: #1451c5;
+  --light-blue-bg: #f4f8fc;
+  --white: #ffffff;
+  --text-dark: #1a1a1a;
+  --text-light: #ffffff;
+  --border-color: #e5e7eb;
+  --table-header: #1451c5;
+  --table-group-label: #dbeafe;
+  --red-asterisk: #dc2626;
+
+  --font-family: "Poppins", sans-serif;
+  --container-max: 1100px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --shadow-video: 0 4px 24px rgba(20, 81, 197, 0.18);
+  --shadow-blue-glow: 0 0 60px 16px rgba(20, 81, 197, 0.45);
+}
+
+/* ---------- Reset & Base ---------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--text-dark);
+  line-height: 1.6;
+  background-color: #051540;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* ---------- Layout Wrappers ---------- */
+.bg-dark {
+  background-color: #051540;
+  color: #ffffff;
+}
+
+.bg-light-blue {
+  background-color: #f4f8fc;
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 60px 5%;
+}
+
+.footer-container {
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+/*  Typography*/
+
+.section-title {
+  color: #1451c5;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.section-subtitle {
+  font-size: 0.95rem;
+  margin-bottom: 40px;
+  max-width: 800px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.highlight-keyword {
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+/* ============================================================
+   1. HEADER
+   ============================================================ */
+.site-header {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 20px 5%;
+  display: flex;
+  align-items: center;
+  background-color: var(--dark-navy);
+}
+
+.site-logo {
+  width: 160px;
+  height: auto;
+  object-fit: contain;
+}
