@@ -117,3 +117,28 @@
   font-weight: 500;
   font-size: 0.95rem;
 }
+
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-section .section-title,
+  .contact-section .section-subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section-subtitle{
+    color: #333
+  }
+
+  .char-count{
+    color: #333
+  }
+  .submit-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

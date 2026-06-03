@@ -32,3 +32,25 @@
   color: var(--text-dark);
   line-height: 1.7;
 }
+
+@media (max-width: 768px) {
+  .video-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .video-content {
+    order: -1;
+    width: 100%;
+  }
+
+  .section-title, p{
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+ 
+
+}
