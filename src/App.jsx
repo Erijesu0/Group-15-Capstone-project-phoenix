@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import PlanetGrid from "./Components/PlanetGrid";
 import ContactForm from "./Components/ContactForm";
+import VideoSection from "./Components/VideoSection";
 
 function App() {
   return (
@@ -10,6 +11,11 @@ function App() {
         <Header />
         <div className="container">
           <Hero />
+        </div>
+      </div>
+      <div className="bg-white">
+        <div className="container">
+          <VideoSection />
         </div>
       </div>
 
