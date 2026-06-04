@@ -31,7 +31,7 @@
   font-weight: 700;
   font-size: 0.9rem;
   margin-bottom: 8px;
-  color: #ffffff;
+  color: #1a1a1a;
 }
 
 .form-group .required {
@@ -69,6 +69,7 @@
 .form-group textarea {
   resize: vertical;
   min-height: 110px;
+  color: #1a1a1a;
 }
 
 .char-count {
@@ -130,12 +131,12 @@
     text-align: center;
   }
 
-  .section-subtitle{
-    color: #333
+  .section-subtitle {
+    color: #333;
   }
 
-  .char-count{
-    color: #333
+  .char-count {
+    color: #333;
   }
   .submit-btn {
     width: 100%;

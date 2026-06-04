@@ -85,11 +85,11 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://github.com/mazi-Traviss"
+              href="https://github.com/Viktor245-dotcom"
               target="_blank"
               rel="noreferrer"
             >
-              Mazi
+              Victor
             </a>
           </li>
         </ul>

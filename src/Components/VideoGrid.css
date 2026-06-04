@@ -11,8 +11,8 @@
 
 .video-container video {
   width: 100%;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-video);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(20, 81, 197, 0.18);
   border: 2px solid rgba(20, 81, 197, 0.15);
   display: block;
 }
@@ -29,7 +29,7 @@
 
 .video-content p {
   font-size: 0.95rem;
-  color: var(--text-dark);
+  color: #1a1a1a;
   line-height: 1.7;
 }
 
@@ -45,12 +45,10 @@
     width: 100%;
   }
 
-  .section-title, p{
+  .section-title,
+  p {
     width: 100%;
     white-space: normal;
     word-wrap: break-word;
   }
-
- 
-
 }

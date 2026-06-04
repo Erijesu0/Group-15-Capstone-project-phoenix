@@ -1,14 +1,20 @@
 import "./Table.css";
 
 const Table = () => {
-    return ( 
-   
+  return (
     <div className="table-container">
       <h2 className="table-title">Planetary Facts at a Glance</h2>
       <p className="table-subtitle">
-        Below is a comparative table of major planets in our solar system. The data highlights key physical properties used by astronomers and researchers worldwide.
+        Below is a comparative table of major planets in our solar system. The
+        data highlights key physical properties used by astronomers and
+        researchers worldwide.
       </p>
-      
+
+      <p className="data-source">
+        Data about the planets of our solar system (Planetary facts taken from
+        NASA)
+      </p>
+
       <div className="responsive-table-wrapper">
         <table className="planetary-table">
           <thead>
@@ -23,9 +29,10 @@ const Table = () => {
           </thead>
 
           <tbody>
-           
             <tr>
-              <td rowSpan="4" className="group-cell terrestrial-bg">Terrestrial Planets</td>
+              <td rowSpan="4" className="group-cell terrestrial-bg">
+                Terrestrial Planets
+              </td>
               <td className="subgroup-cell">—</td>
               <td className="planet-name">Mercury</td>
               <td>0.330</td>
@@ -61,10 +68,13 @@ const Table = () => {
               <td>3.7</td>
             </tr>
 
-           
             <tr>
-              <td rowSpan="4" className="group-cell jovian-bg">Jovian Planets</td>
-              <td rowSpan="2" className="subgroup-cell gas-bg">Gas Giants</td>
+              <td rowSpan="4" className="group-cell jovian-bg">
+                Jovian Planets
+              </td>
+              <td rowSpan="2" className="subgroup-cell gas-bg">
+                Gas Giants
+              </td>
               <td className="planet-name">Jupiter</td>
               <td>1898</td>
               <td>142,984</td>
@@ -81,7 +91,9 @@ const Table = () => {
 
             {/* Jovian Planets - Ice Giants */}
             <tr>
-              <td rowSpan="2" className="subgroup-cell ice-bg">Ice Giants</td>
+              <td rowSpan="2" className="subgroup-cell ice-bg">
+                Ice Giants
+              </td>
               <td className="planet-name">Uranus</td>
               <td>86.8</td>
               <td>51,118</td>
@@ -98,7 +110,9 @@ const Table = () => {
 
             {/* Dwarf Planets */}
             <tr>
-              <td colSpan="2" className="group-cell dwarf-bg">Dwarf Planets</td>
+              <td colSpan="2" className="group-cell dwarf-bg">
+                Dwarf Planets
+              </td>
               <td className="planet-name">Pluto</td>
               <td>0.0130</td>
               <td>2,376</td>
@@ -109,7 +123,7 @@ const Table = () => {
         </table>
       </div>
     </div>
-     );
+  );
 };
- 
+
 export default Table;

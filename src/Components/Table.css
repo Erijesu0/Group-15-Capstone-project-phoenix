@@ -1,3 +1,7 @@
+.table-section {
+  padding-bottom: 20px;
+}
+
 .table-container {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   max-width: 1200px;
@@ -13,9 +17,16 @@
   margin-bottom: 8px;
 }
 
+.data-source {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
 .table-subtitle {
-  color: #666;
-  font-size: 14px;
+  color: #666666f9;
+  font-size: 16px;
   margin-bottom: 25px;
   line-height: 1.5;
 }
@@ -35,7 +46,7 @@
 }
 
 .planetary-table th {
-  background-color: #1d4ed8; /* Deep rich blue */
+  background-color: #1d4ed8;
   color: #ffffff;
   padding: 14px 16px;
   font-weight: 600;
@@ -53,19 +64,20 @@
 }
 
 .group-cell {
-  background-color: #f8fafc;
-  font-weight: 600;
+  background-color: #1452c535;
+  font-weight: bolder;
   color: #1e293b;
   text-align: center;
   vertical-align: middle;
 }
 
 .subgroup-cell {
-  background-color: #f1f5f9;
+  background-color: #1452c535;
   font-size: 13px;
-  color: #475569;
+  color: #333;
   text-align: center;
   vertical-align: middle;
+  font-weight: bolder;
 }
 
 .planetary-table tbody tr:nth-child(even) {
