@@ -3,6 +3,7 @@ import Hero from "./Components/Hero";
 import PlanetGrid from "./Components/PlanetGrid";
 import ContactForm from "./Components/ContactForm";
 import VideoSection from "./Components/VideoSection";
+import Table from "./Components/Table";
 
 function App() {
   return (
