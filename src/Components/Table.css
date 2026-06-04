@@ -75,3 +75,11 @@
 .planetary-table tbody tr:hover {
   background-color: #f1f5f9;
 }
+
+@media (max-width: 768px) {
+  .table-container {
+    display: none;
+    
+  } 
+  
+}
