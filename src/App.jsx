@@ -3,7 +3,7 @@ import Hero from "./Components/Hero";
 import PlanetGrid from "./Components/PlanetGrid";
 import ContactForm from "./Components/ContactForm";
 import VideoSection from "./Components/VideoSection";
-import Table from "./Components/Table";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Hero />
         </div>
       </div>
+
       <div className="bg-white">
         <div className="container">
           <VideoSection />
@@ -26,8 +27,16 @@ function App() {
         </div>
       </div>
 
-      <div className="container">
-        <ContactForm />
+      <div className="bg-white">
+        <div className="container">
+          <ContactForm />
+        </div>
+      </div>
+
+      <div className="bg-dark">
+        <div className="container footer-container">
+          <Footer />
+        </div>
       </div>
     </div>
   );
