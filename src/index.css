@@ -107,3 +107,18 @@ ol {
   color: #1451c5;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  html,body, #root {
+    overflow-x: hidden;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+  }
+}
