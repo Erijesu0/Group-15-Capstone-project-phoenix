@@ -4,6 +4,7 @@ import PlanetGrid from "./Components/PlanetGrid";
 import ContactForm from "./Components/ContactForm";
 import VideoSection from "./Components/VideoSection";
 import Footer from "./Components/Footer";
+import Table from "./Components/Table";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
       </div>
 
       <div className="bg-white">
+        <div className="container">
+          <Table />
+        </div>
         <div className="container">
           <ContactForm />
         </div>
