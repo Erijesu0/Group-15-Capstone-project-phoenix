@@ -92,6 +92,15 @@ const Footer = () => {
               Victor
             </a>
           </li>
+          <li>
+            <a
+              href="https://github.com/devcrystal01"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Freedah
+            </a>
+          </li>
         </ul>
       </div>
 
