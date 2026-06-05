@@ -23,7 +23,7 @@ This application recreates a provided Figma mockup as a fully working React web 
 | Erijesu        | [@Erijesu0](https://github.com/Erijesu0)                                       | Hero Section /Debugging      |
 | Jesutobiloba   | [@officialjesprec](https://github.com/officialjesprec)                         | ContactSection               |
 | FlourishM      | [@FlourishM](https://github.com/FlourishM)                                     | HeaderSection                |
-| Adokun-Rapheal | [@Adokun-Rapheal1](https://github.com/Adokun-Rapheal1)                         |
+| Adokun-Rapheal | [@Adokun-Rapheal](https://github.com/Adokun-Rapheal)                         |
 | Aluoye         | [@Aluoye](https://github.com/Aluoye)                                           | FooterSection                |
 | Kaosisochukwu  | [@ewenikekaosisochukwu-dotcom](https://github.com/ewenikekaosisochukwu-dotcom) | Planet Grid and FetchingAPI  |
 | Tobiloba       | [@tobiloba](https://github.com/tobiloba)                                       |
