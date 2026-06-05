@@ -98,7 +98,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Freedah
+              Fareedah
             </a>
           </li>
         </ul>
