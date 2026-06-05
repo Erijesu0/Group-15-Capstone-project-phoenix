@@ -6,7 +6,7 @@ A React web application that explores our solar system through data. Built as a 
 
 ## 🔗 Live Demo
 
-| **Deployment Link** | |
+| **Deployment Link** |https://capstone-project-grp15.netlify.app/ |
 
 ---
 
