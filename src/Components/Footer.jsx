@@ -35,7 +35,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://github.com/Adokun-Rapheal1"
+              href="https://github.com/Rdgdesignz"
               target="_blank"
               rel="noreferrer"
             >
@@ -79,7 +79,11 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/FIYIN" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/Darkhydraxl"
+              target="_blank"
+              rel="noreferrer"
+            >
               Fiyin
             </a>
           </li>
