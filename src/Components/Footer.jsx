@@ -71,7 +71,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://github.com/samson"
+              href="https://github.com/alebiosusamson95"
               target="_blank"
               rel="noreferrer"
             >

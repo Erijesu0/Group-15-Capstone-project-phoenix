@@ -1,29 +1,14 @@
 import { useState, useEffect } from "react";
 import "./PlanetGrid.css";
+import planetsData from "../data/planets.json";
 
 const PlanetGrid = () => {
   const [planets, setPlanets] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchPlanets = async () => {
-      try {
-        const response = await fetch(
-          "https://anurella.github.io/json/planets.json",
-        );
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
-        setPlanets(data);
-        setLoading(false);
-      } catch (error) {
-        console.error("Error fetching planet data:", error);
-        setLoading(false);
-      }
-    };
-
-    fetchPlanets();
+    setPlanets(planetsData);
+    setLoading(false);
   }, []);
 
   return (
