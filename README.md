@@ -26,7 +26,7 @@ This application recreates a provided Figma mockup as a fully working React web 
 | Adokun-Rapheal | [@Adokun-Rapheal1](https://github.com/Rdgdesignz)                              | Table Section                  |
 | Aluoye         | [@Aluoye](https://github.com/Aluoye)                                           | FooterSection                  |
 | Kaosisochukwu  | [@ewenikekaosisochukwu-dotcom](https://github.com/ewenikekaosisochukwu-dotcom) | Planet Grid and FetchingAPI    |
-| Samson         | [@samson](https://github.com/samson)                                           | VideoSection                   |
+| Samson         | [@samson](https://github.com/alebiosusamson95)                                           | VideoSection                   |
 | Fiyin          | [@FIYIN](https://github.com/FIYIN)                                             |
 | Victor         | [@mazi-Traviss(https://github.com/Viktor245-dotcom)                            | Media Queries andresponsivness |
 | Fareedah       | [@Fareedah](https://github.com/devcrystsl01)                                   |
